@@ -1,0 +1,11 @@
+* Anonymous classes are inner classes with no name.
+* Since they have no name, we have to declare and instantiate anonymous classes in a single expression at the point of use.
+
+Can either implement
+
+1. Extend a class
+2. Implement a interface
+
+Scope of variable
+------------------
+Anonymous classes cannot have any static members except for those that are constant.

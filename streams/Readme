@@ -1,0 +1,21 @@
+Streams vs collections
+======================
+Collections are used to store and group the data in a particular data structure like List, Set or Map. 
+But, streams are used to perform complex data processing operations like filtering, matching, mapping etc on stored data such as arrays, 
+collections or I/O resources. That means, collections are mainly about data and streams are mainly about operations on data.
+
+https://howtodoinjava.com/java8/java-streams-by-examples/
+
+
+Collections Streams
+==============================================================================
+1. Can add/modify/delete elements anytime                  can not modify data in stream.
+2. Data can access any order. i.e list.get(5);             elements can access only sequencially
+3. Eagerly constructed                                     3. lazy constructed
+4. Can traverse through any number of times                4. Stream can traverse only one time
+
+
+Method References
+=====================
+https://www.codementor.io/eh3rrera/using-java-8-method-reference-du10866vx
+

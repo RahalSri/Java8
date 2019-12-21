@@ -1,0 +1,27 @@
+Problem with annonymous classes
+===============================
+Lot's of boilerplate codes. Functional interaces reduce those boiler plate codes.
+
+Functional Interfaces rules
+======================
+1. Interface which have just one abstract method
+2. annotate with @FunctionalInterface
+
+** A functional interface can have methods of Object class.
+** Can have default methods (including static) https://howtodoinjava.com/java8/default-methods-in-java-8/
+
+Examples
+====================
+Runnable & comparator
+
+Where  can be used
+===================
+1. Lambda expression
+
+
+* Lambda is a annonymous function
+
+Usage
+========
+- Used to implement Functional interfaces (SAM)
+  i.e : Runnable, Comparator

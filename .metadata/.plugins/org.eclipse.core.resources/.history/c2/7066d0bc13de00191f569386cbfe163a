@@ -1,0 +1,13 @@
+import java.util.stream.IntStream;
+
+public class NumericStreams {
+
+	public static void main(String[] args) {
+		// These are primitve type steams
+		// IntStream, LongStream, DoubleStream
+		
+		IntStream.range(1, 5).forEach(System.out::println);
+
+	}
+
+}

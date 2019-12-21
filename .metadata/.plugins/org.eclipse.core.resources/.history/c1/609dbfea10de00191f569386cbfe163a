@@ -1,0 +1,15 @@
+package streams;
+
+import java.util.stream.Stream;
+
+public class Factory {
+
+	public static void main(String[] args) {
+		// of , itereate and generate
+		
+		Stream<String> stream1 = Stream.of("rahil","sira", "mara");
+		stream1.forEach(System.out::printl);
+
+	}
+
+}

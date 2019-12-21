@@ -1,0 +1,8 @@
+
+public class Mapping {
+
+	public static void main(String[] args) {
+		// apply transformation function first and then collects the data in a a collection
+		System.out.println(count());
+	}
+}
